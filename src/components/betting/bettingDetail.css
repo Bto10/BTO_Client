@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Detail-box {
+    width: 22.5rem;
+    height: 9.6rem;
+    flex-shrink: 0;
+
+    border-radius: 0.625rem;
+    background: #18181B;
+}
+
+.line {
+    width: 0.04563rem;
+    height: 8.53181rem;
+    flex-shrink: 0;
+
+    background: #363636;
+}
+
+.team1-name {
+    width: 4.6875rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+
+    color: #3879FE;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team1-bettingpercent{
+    width: 5rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+
+    color: #3879FE;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.team1-bettingmoney {
+    width: 2.7rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    color: #A6A6A6;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team1-odds {
+    width: 2.7rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    color: #A6A6A6;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team1-personnel {
+    width: 2.7rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    color: #A6A6A6;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team1-progressbar {
+    width: 7.5rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+
+    border-radius: 62.4375rem;
+    background: #3879FE;
+}
+
+/* ====================================================================================================================== */
+
+.team2-name {
+    width: 4.6875rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+
+    color: #F5019B;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team2-bettingpercent{
+    width: 5rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+
+    color: #F5019B;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.team2-bettingmoney {
+    width: 2.7rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    color: #A6A6A6;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team2-odds {
+    width: 2.7rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    color: #A6A6A6;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team2-personnel {
+    width: 2.7rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    color: #A6A6A6;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team2-progressbar {
+    width: 7.5rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+
+    border-radius: 62.4375rem;
+    background: #F5019B;
+}
