@@ -7,37 +7,77 @@
     width: 22.5rem;
     height: 9.6rem;
     flex-shrink: 0;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 
     border-radius: 0.625rem;
     background: #18181B;
 }
 
 .line {
-    width: 0.04563rem;
-    height: 8.53181rem;
+    width: 0.05em;
+    height: 8.5rem;
     flex-shrink: 0;
+
+    margin: 0 auto 0 auto;
 
     background: #363636;
 }
 
-.team1-name {
-    width: 4.6875rem;
-    height: 0.9375rem;
+.line-box {
+    width: 1rem;
+    height: 7.75rem;
     flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    width: 0.9rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.team-box {
+    width: 10.75rem;
+    height: 7.75rem;
+    flex-shrink: 0;
+}
+
+.team1-name {
+    width: 5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+
+    margin: 0 0 0 auto;
 
     color: #3879FE;
     text-align: center;
     font-family: WAGURI;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .team1-bettingpercent{
-    width: 5rem;
-    height: 0.75rem;
+    width: 4.5rem;
+    height: 2.25rem;
     flex-shrink: 0;
+
+    margin: 0 0 0 auto;
+    /* padding: 0 0.5rem 0 0; */
+    display: flex;
+    align-items: center;
+    text-align: right;
 
     color: #3879FE;
     text-align: center;
@@ -48,7 +88,18 @@
     line-height: normal;
 }
 
-.team1-bettingmoney {
+.team1-totalbettingmoney {
+    width: 3.6rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    margin: 0 auto 0 0;
+    padding: 0 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.team1-totalbettingmoney-text {
     width: 2.7rem;
     height: 0.9rem;
     flex-shrink: 0;
@@ -63,6 +114,17 @@
 }
 
 .team1-odds {
+    width: 3.6rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    margin: 0 auto 0 0;
+    padding: 0 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.team1-odds-text{
     width: 2.7rem;
     height: 0.9rem;
     flex-shrink: 0;
@@ -77,6 +139,17 @@
 }
 
 .team1-personnel {
+    width: 3.6rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    margin: 0 auto 0 0;
+    padding: 0 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.team1-personnel-text{
     width: 2.7rem;
     height: 0.9rem;
     flex-shrink: 0;
@@ -95,6 +168,8 @@
     height: 0.75rem;
     flex-shrink: 0;
 
+    margin: 0 0 0 auto;
+
     border-radius: 62.4375rem;
     background: #3879FE;
 }
@@ -102,23 +177,30 @@
 /* ====================================================================================================================== */
 
 .team2-name {
-    width: 4.6875rem;
-    height: 0.9375rem;
+    width: 5rem;
+    height: 1.5rem;
     flex-shrink: 0;
+
+    margin: 0 auto 0 0;
 
     color: #F5019B;
     text-align: center;
     font-family: WAGURI;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .team2-bettingpercent{
-    width: 5rem;
-    height: 0.75rem;
+    width: 4.5rem;
+    height: 2.25rem;
     flex-shrink: 0;
+
+    margin: 0 auto 0 0;
+    /* padding: 0 0 0 0.5rem; */
+    display: flex;
+    align-items: center;
 
     color: #F5019B;
     text-align: center;
@@ -129,7 +211,18 @@
     line-height: normal;
 }
 
-.team2-bettingmoney {
+.team2-totalbettingmoney {
+    width: 3.6rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    margin: 0 0 0 auto;
+    padding: 0 0.5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.team2-totalbettingmoney-text {
     width: 2.7rem;
     height: 0.9rem;
     flex-shrink: 0;
@@ -144,6 +237,17 @@
 }
 
 .team2-odds {
+    width: 3.6rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    margin: 0 0 0 auto;
+    padding: 0 0.5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.team2-odds-text {
     width: 2.7rem;
     height: 0.9rem;
     flex-shrink: 0;
@@ -158,6 +262,17 @@
 }
 
 .team2-personnel {
+    width: 3.6rem;
+    height: 0.9rem;
+    flex-shrink: 0;
+
+    margin: 0 0 0 auto;
+    padding: 0 0.5rem 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.team2-personnel-text {
     width: 2.7rem;
     height: 0.9rem;
     flex-shrink: 0;
@@ -175,6 +290,8 @@
     width: 7.5rem;
     height: 0.75rem;
     flex-shrink: 0;
+
+    margin: 0 auto 0 0;
 
     border-radius: 62.4375rem;
     background: #F5019B;
