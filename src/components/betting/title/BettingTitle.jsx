@@ -10,7 +10,7 @@ function BettingTitle(props) {
     }
 
     return (
-        <div className="title-box">
+        <div id={"BettingTitle"}>
             <h4 className="main-title">{props.title}</h4>
             <p className="deadline">{deadline} 후에 마감이 됩니다</p>
         </div>

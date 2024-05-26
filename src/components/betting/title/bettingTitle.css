@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.title-box {
+#BettingTitle {
     width: 22.5rem;
     height: 3.75rem;
     flex-shrink: 0;
@@ -16,7 +16,7 @@
     background: #363636;
 }
 
-.main-title {
+#BettingTitle > .main-title {
     width: 8.37881rem;
     height: 1.08694rem;
     flex-shrink: 0;
@@ -32,7 +32,7 @@
     line-height: normal;
 }
 
-.deadline {
+#BettingTitle > .deadline {
     width: 10.24913rem;
     height: 0.86956rem;
     flex-shrink: 0;
