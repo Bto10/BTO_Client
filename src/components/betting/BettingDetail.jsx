@@ -1,6 +1,18 @@
+import React from 'react';
 import './bettingDetail.css';
 
 function BettingDetail(props){
+    const progressbar = {
+        width: `${props.team2.progressbarLength}rem`,
+        height: '0.75rem',
+        flexShrink: '0',
+
+        margin: '0 auto 0 0',
+
+        borderRadius: '62.5rem',
+        background: '#F5019B',
+    };
+
     return (
         <div className='Detail-box'>
             <div className='team-box'>
@@ -64,7 +76,7 @@ function BettingDetail(props){
                     </svg>
                 </div>
                 <div className='team2-bettingpercent'>{props.team2.bettingpercent}%</div>
-                <div className='team2-progressbar'>{props.team2.progressbar}</div>
+                <div className='team2-progressbar' style={progressbar}>{props.team2.progressbar}</div>
             </div>
         </div>
     );
