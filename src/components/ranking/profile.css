@@ -1,106 +1,133 @@
-#profile {
-    ranking-box {
-        width: 86.75rem;
-        height: 2.625rem;
-    }
-    
-    ranking-num {
-        width: 2.5rem;
-        height: 2.5rem;
-        flex-shrink: 0;
-    
-        border-radius: 625rem;
-        background: #42474E;
-    }
-    
-    profile-img {
-        width: 2.65rem;
-        height: 2.625rem;
-        flex-shrink: 0;
-    
-        border-radius: 624.9375rem;
-        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    }
-    
-    profile-info {
-        width: 10.75rem;
-    
-        color: #FFF;
-        font-family: WAGURI;
-        font-size: 0.75rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    profile-name {
-        width: 10.75rem;
-    
-        color: #FFF;
-        font-family: WAGURI;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    profile-money {
-        width: 8.15rem;
-        
-        color: #FFF;
-        text-align: center;
-        font-family: WAGURI;
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    profile-success{
-        width: 1rem;
-    
-        color: #FFF;
-        text-align: center;
-        font-family: WAGURI;
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    profile-fail {
-        width: 1rem;
-    
-        color: #FFF;
-        text-align: center;
-        font-family: WAGURI;
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    profile-maximum-profit-margin {
-        width: 2.5rem;
-    
-        color: #FFF;
-        text-align: center;
-        font-family: WAGURI;
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-    
-    profile-betting-profit-margin {
-        width: 3.5rem;
-    
-        color: #FFF;
-        text-align: center;
-        font-family: WAGURI;
-        font-size: 0.875rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Profile {
+    width: 80rem;
+    height: 2.625rem;
+
+    padding: 0 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+#Profile .ranking-num {
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+
+    margin: 0 2rem;
+
+    border-radius: 625rem;
+    background: #42474E;
+
+    color: #FFF;
+    font-family: WAGURI;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#Profile .info {
+    width: 20rem;
+
+    margin: 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#Profile .info .profile-info {
+    width: 10rem;
+    height: 1.3125rem;
+
+    color: #FFF;
+    font-family: WAGURI;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem;
+}
+
+#Profile .info .profile-name {
+    width: 10rem;
+    height: 1.3125rem;
+
+    color: #FFF;
+    font-family: WAGURI;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3125rem;
+}
+
+#Profile .profile-money {
+    width: 15rem;
+    height: 2.625rem;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#Profile .profile-success{
+    width: 7.5rem;    
+    height: 2.625rem;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#Profile .profile-fail {
+    width: 7.5rem;
+    height: 2.625rem;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#Profile .profile-maximum-profit-margin {
+    width: 7.5rem;
+    height: 2.625rem;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
+}
+
+#Profile .profile-betting-profit-margin {
+    width: 7.5rem;
+    height: 2.625rem;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.625rem;
 }

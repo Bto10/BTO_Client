@@ -1,21 +1,33 @@
-import './App.css';
-import BettingTitle from './components/betting/title/BettingTitle';
-import BettingDetail from './components/betting/BettingDetail';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
 function App() {
-  let team = {
-    'name': '1반',
-    'totalbettingmoney' : '300',
-    'bettingpercent':'70',
-    'odds' : '1:3',
-    'personnel' : 50,
-    'progressbarLength' : 7.5,
-  }
+  const [count, setCount] = useState(0)
 
   return (
     <>
-      <BettingTitle title="2반 vs 3반 피구" hour="1" minute="30" />
-      <BettingDetail LeftTeam={team} RightTeam={team} />
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
     </>
   )
 }
