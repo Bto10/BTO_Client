@@ -36,7 +36,7 @@
 #Profile .info {
     width: 20rem;
 
-    margin: 0 5rem;
+    margin: 0 4rem;
 
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
 }
 
 #Profile .info .profile-info {
-    width: 10rem;
+    width: 11rem;
     height: 1.3125rem;
 
     color: #FFF;
@@ -56,7 +56,7 @@
 }
 
 #Profile .info .profile-name {
-    width: 10rem;
+    width: 11rem;
     height: 1.3125rem;
 
     color: #FFF;
