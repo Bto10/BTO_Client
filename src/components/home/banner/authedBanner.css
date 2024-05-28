@@ -5,16 +5,9 @@
     width: calc(100vw - var(--sidebar-width));
 }
 
-#authenticatedHome .banners {
-    position: relative;
-}
-
-#authenticatedHome .banners p {
+#authenticatedHome .semi-title {
     position: absolute;
     left: 91px;
-    top: calc((100vh * 0.13) - 17px);
-
-    transform: translatey(-100%);
 
     color: #FFF;
     text-align: center;
@@ -23,6 +16,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+#authenticatedHome .banners {
+    position: relative;
+}
+
+#authenticatedHome .banners .semi-title {
+    position: absolute;
+    top: calc((100vh * 0.13) - 17px);
+
+    transform: translatey(-100%);
 }
 
 #authenticatedHome .banners .banner {
@@ -43,7 +47,7 @@
     left: 37px;
 
     color: #FFF;
-    font-family: WAGURI;
+    font-family: WAGURI, ui-serif;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -67,7 +71,7 @@
 
     color: #FFF;
     text-align: center;
-    font-family: WAGURI;
+    font-family: WAGURI, ui-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -86,7 +90,7 @@
 
     color: #FFF;
     text-align: center;
-    font-family: WAGURI;
+    font-family: WAGURI, ui-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
