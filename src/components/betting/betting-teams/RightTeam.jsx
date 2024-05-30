@@ -1,12 +1,17 @@
 import './RightTeam.css';
 
-import money from '../../../assets/betting/img/red_money.svg'
-import people from '../../../assets/betting/img/red_people.svg'
-import percent from '../../../assets/betting/img/red_percent.svg'
+import money from '../../../assets/betting/component/img/red_money.svg'
+import people from '../../../assets/betting/component/img/red_people.svg'
+import percent from '../../../assets/betting/component/img/red_percent.svg'
 
 function RightTeam(props){
+    let progressbarLength = props.info.bettingpercent/10;
+    let totalBettingMoney = props.info.totalbettingmoney;
+    let UnitIndex = 0;
+    let moneyUnit = ['', 'K', 'M', 'B', 'T', 'Qd', 'Qnt', 'Sxt', 'Sep', 'Oct', 'Non', 'Dec'];
+
     const RightTeamProgressbar = {
-        width: `${props.info.progressbarLength}rem`,
+        width: `${progressbarLength}rem`,
         height: '0.75rem',
         flexShrink: '0',
 
@@ -16,12 +21,18 @@ function RightTeam(props){
         background: '#F5019B',
     };
 
+    while (totalBettingMoney >= 1000){
+        totalBettingMoney = totalBettingMoney / 1000;
+        console.log(totalBettingMoney);
+        UnitIndex++;
+    }
+
     return (
         <div id='RightTeam'>
             <div className='RightTeam-name'>{props.info.name}</div>
             <div className='RightTeam-totalbettingmoney'>
                 <div className='RightTeam-totalbettingmoney-text'>
-                    {props.info.totalbettingmoney}
+                    {totalBettingMoney}{moneyUnit[UnitIndex]}
                 </div>
                 <img src={money} alt='money' />
             </div>

@@ -6,11 +6,11 @@ import LeftTeam from './betting-teams/LeftTeam';
 function BettingDetail(props){
     return (
         <div id={"BettingDetail"}>
-            <LeftTeam info={props.LeftTeam} />
+            <LeftTeam info={props.teams.LeftTeam} />
             <div className='line-box'>
                 <div className="line"></div>
             </div>
-            <RightTeam info={props.RightTeam} />
+            <RightTeam info={props.teams.RightTeam} />
         </div>
     );
 }

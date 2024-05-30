@@ -1,0 +1,29 @@
+#Banner {
+    width: 92.5rem;
+    height: 21.625rem;
+    flex-shrink: 0;
+
+    border-radius: 1.25rem;
+    background: linear-gradient(90deg, #4D4FE2 0%, #1A8FEC 100%);
+}
+
+#Banner .bettingTitleText {
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#Banner .bettingTeamText {
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
