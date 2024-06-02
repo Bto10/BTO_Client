@@ -8,9 +8,6 @@ function App() {
   return (
       <div className="App">
           <Sidebar />
-          <section>
-            <BettingList bettingList={eventList} />
-          </section>
       </div>
   );
 }
