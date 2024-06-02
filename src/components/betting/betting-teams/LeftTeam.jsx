@@ -23,7 +23,6 @@ function LeftTeam(props) {
 
     while (totalBettingMoney >= 1000){
         totalBettingMoney = totalBettingMoney / 1000;
-        console.log(totalBettingMoney);
         UnitIndex++;
     }
 

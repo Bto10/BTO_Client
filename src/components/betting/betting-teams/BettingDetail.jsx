@@ -1,7 +1,7 @@
 import React from 'react';
 import './bettingDetail.css';
-import RightTeam from './betting-teams/RightTeam';
-import LeftTeam from './betting-teams/LeftTeam';
+import RightTeam from './RightTeam';
+import LeftTeam from './LeftTeam';
 
 function BettingDetail(props){
     return (

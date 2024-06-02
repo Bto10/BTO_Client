@@ -2,28 +2,26 @@ import './BettingList.css';
 import BettingDetail from '../../../components/betting/BettingDetail';
 import BettingTitle from '../../../components/betting/title/BettingTitle';
 
-function BettingSet(props){
-    return (
-        <div id="BettingSet" className="BettingSet">
-            <BettingTitle title={props.betting.title} />
-            <div className='emptyspace'></div>
-            <BettingDetail teams={props.betting.teams} />
-        </div>
-    );
-}
-
 function BettingList(props){
-    let bettingList = props.bettingList;
+    let bettingList = props.eventList;
 
     return (
-        <div>
+        <div id='BettingList'>
             {
-                bettingList.map((betting) => {
-                    console.log(betting);
+                bettingList.map((bettings) => {
                     return (
-                        <BettingSet key={betting.id} betting={betting} />
+                        <div className='event'>
+                        {
+                            bettings.map((betting) => {
+                                console.log(betting);
+                                return (
+                                    <BettingSet key={betting.id} betting={betting} />
+                                );
+                            })
+                        }
+                        </div>
                     );
-                })
+                })   
             }
         </div>
     );

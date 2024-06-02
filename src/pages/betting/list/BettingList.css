@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+#BettingList .event {
+    display: flex;
+    flex-direction: row;
+}
+
 #BettingList .pageTitle {
     color: #FFF;
     text-align: center;
@@ -11,14 +16,4 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-#BettingSet {
-    width: 22.5rem;
-    height: 13.6rem;
-}
-
-#BettingSet .emptyspace {
-    width: 22.5rem;
-    height: 0.25rem;
 }
