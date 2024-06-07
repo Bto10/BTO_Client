@@ -4,9 +4,9 @@ import money from '../../../assets/betting/component/img/blue_money.svg'
 import people from '../../../assets/betting/component/img/blue_people.svg'
 import percent from '../../../assets/betting/component/img/blue_percent.svg'
 
-function LeftTeam(props) {
-    let progressbarLength = props.info.bettingpercent/10;
-    let totalBettingMoney = props.info.totalbettingmoney;
+function LeftTeam({ info }) {
+    let progressbarLength = info.bettingpercent/10;
+    let totalBettingMoney = info.totalbettingmoney;
     let UnitIndex = 0;
     let moneyUnit = ['', 'K', 'M', 'B', 'T', 'Qd', 'Qnt', 'Sxt', 'Sep', 'Oct', 'Non', 'Dec'];
 
@@ -28,7 +28,7 @@ function LeftTeam(props) {
 
     return (
         <div id='LeftTeam'>
-            <div className='LeftTeam-name'>{props.info.name}</div>
+            <div className='LeftTeam-name'>{info.name}</div>
             <div className='LeftTeam-totalbettingmoney'>
                 <img src={money} alt='money' />
                 <div className='LeftTeam-totalbettingmoney-text'>
@@ -38,17 +38,17 @@ function LeftTeam(props) {
             <div className='LeftTeam-odds'>
                 <img src={people} alt='people' />
                 <div className='LeftTeam-odds-text'>
-                    {props.info.odds}
+                    {info.odds}
                 </div>
             </div>
             <div className='LeftTeam-personnel'>
                 <img src={percent} alt='percent' />
                 <div className='LeftTeam-personnel-text'>
-                    {props.info.personnel}
+                    {info.personnel}
                 </div>
             </div>
-            <div className='LeftTeam-bettingpercent'>{props.info.bettingpercent}%</div>
-            <div style={LeftTeamProgressbar}>{props.info.progressbar}</div>
+            <div className='LeftTeam-bettingpercent'>{info.bettingpercent}%</div>
+            <div style={LeftTeamProgressbar}>{info.progressbar}</div>
         </div>
     )
 }

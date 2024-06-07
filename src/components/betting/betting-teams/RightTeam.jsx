@@ -4,9 +4,9 @@ import money from '../../../assets/betting/component/img/red_money.svg'
 import people from '../../../assets/betting/component/img/red_people.svg'
 import percent from '../../../assets/betting/component/img/red_percent.svg'
 
-function RightTeam(props){
-    let progressbarLength = props.info.bettingpercent/10;
-    let totalBettingMoney = props.info.totalbettingmoney;
+function RightTeam({ info }){
+    let progressbarLength = info.bettingpercent/10;
+    let totalBettingMoney = info.totalbettingmoney;
     let UnitIndex = 0;
     let moneyUnit = ['', 'K', 'M', 'B', 'T', 'Qd', 'Qnt', 'Sxt', 'Sep', 'Oct', 'Non', 'Dec'];
 
@@ -28,7 +28,7 @@ function RightTeam(props){
 
     return (
         <div id='RightTeam'>
-            <div className='RightTeam-name'>{props.info.name}</div>
+            <div className='RightTeam-name'>{info.name}</div>
             <div className='RightTeam-totalbettingmoney'>
                 <div className='RightTeam-totalbettingmoney-text'>
                     {totalBettingMoney}{moneyUnit[UnitIndex]}
@@ -37,18 +37,18 @@ function RightTeam(props){
             </div>
             <div className='RightTeam-odds'>
                 <div className='RightTeam-odds-text'>
-                    {props.info.odds}
+                    {info.odds}
                 </div>
                 <img src={people} alt='people' />
             </div>
             <div className='RightTeam-personnel'>
                 <div className='RightTeam-personnel-text'>
-                    {props.info.personnel}
+                    {info.personnel}
                 </div>
                 <img src={percent} alt='percent' />
             </div>
-            <div className='RightTeam-bettingpercent'>{props.info.bettingpercent}%</div>
-            <div style={RightTeamProgressbar}>{props.info.progressbar}</div>
+            <div className='RightTeam-bettingpercent'>{info.bettingpercent}%</div>
+            <div style={RightTeamProgressbar}>{info.progressbar}</div>
         </div>
     )
 }

@@ -2,12 +2,12 @@ import './bettingSet.css'
 import BettingTitle from '../title/BettingTitle';
 import BettingDetail from './../betting-teams/BettingDetail';
 
-function BettingSet(title, teams){
+function BettingSet({ betting }){
     return (
         <div id="BettingSet" className="BettingSet">
-            <BettingTitle title={title} />
+            <BettingTitle title={betting.title} />
             <div className='emptyspace'></div>
-            <BettingDetail LeftTeam={teams.LeftTeam} RightTeam={teams.RightTeam} />
+            <BettingDetail teams={betting.teams} />
         </div>
     );
 }
