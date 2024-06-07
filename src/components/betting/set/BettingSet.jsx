@@ -1,6 +1,6 @@
 import './bettingSet.css'
 import BettingTitle from '../title/BettingTitle';
-import BettingDetail from './../BettingDetail';
+import BettingDetail from './../betting-teams/BettingDetail';
 
 function BettingSet(props){
     return (

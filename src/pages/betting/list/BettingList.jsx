@@ -1,26 +1,27 @@
 import './BettingList.css';
+import BettingSet from './../../../components/betting/set/BettingSet';
 
 function BettingList(props){
-    let bettingList = props.eventList;
+    let bettingEvents = Object.keys(props.eventList); // 배팅 종목들 ex) 농구, 축구, 이어달리기
 
+    let bettingList = Object.values(props.eventList).map((bettings, index) => {
+        return (
+            <div key={index} className='event'>
+            <h2>{bettingEvents[index]}</h2>
+            {
+                Object.values(bettings).map((betting, index) => {
+                    return (
+                        <BettingSet key={index} betting={betting} />
+                    );
+                })
+            }
+            </div>
+        );
+    });
+    
     return (
         <div id='BettingList'>
-            {
-                bettingList.map((bettings) => {
-                    return (
-                        <div className='event'>
-                        {
-                            bettings.map((betting) => {
-                                console.log(betting);
-                                return (
-                                    <BettingSet key={betting.id} betting={betting} />
-                                );
-                            })
-                        }
-                        </div>
-                    );
-                })   
-            }
+            {bettingList}
         </div>
     );
 }

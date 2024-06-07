@@ -1,13 +1,7 @@
+/* 주석있는 코드 삭제 */
 .App {
   width: 100vi;
+  height: 100vh;
   height: 100dvh;
   background-color: #1F2329;
-  display: flex;
-  flex-direction: row;
 }
-
-.App section {
-  padding: 1rem;
-  width: 76.75%;
-}
-
