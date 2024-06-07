@@ -3,14 +3,14 @@ import './bettingDetail.css';
 import RightTeam from './RightTeam';
 import LeftTeam from './LeftTeam';
 
-function BettingDetail(props){
+function BettingDetail(LeftTeam, RightTeam){
     return (
         <div id={"BettingDetail"}>
-            <LeftTeam info={props.teams.LeftTeam} />
+            <LeftTeam info={LeftTeam} />
             <div className='line-box'>
-                <div className="line"></div>
+                <div className="line" />
             </div>
-            <RightTeam info={props.teams.RightTeam} />
+            <RightTeam info={RightTeam} />
         </div>
     );
 }

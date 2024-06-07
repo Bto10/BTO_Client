@@ -1,13 +1,14 @@
 import './bettingTitle.css'
 
 function BettingTitle(props) {
-    let deadline = ``;
+    let deadline;
 
-    if (props.title.hour){
-        deadline += `${props.title.hour}시간 ${props.title.minute}분`;
-    } else if (props.title.minute){
-        deadline += `${props.title.minute}분`;
-    }
+    switch(true) {
+        case !!props.title.hour:
+            deadline = `${props.title.hour}시간 ${props.title.minute}분`;
+        case !!props.title.minute:
+            deadline = `${props.title.minute}분`;
+    };
 
     return (
         <div id={"BettingTitle"}>

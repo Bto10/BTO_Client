@@ -23,7 +23,7 @@ function LeftTeam(props) {
 
     while (totalBettingMoney >= 1000){
         totalBettingMoney = totalBettingMoney / 1000;
-        UnitIndex++;
+        UnitIndex += 1;
     }
 
     return (

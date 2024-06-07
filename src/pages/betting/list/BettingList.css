@@ -5,7 +5,6 @@
 
 #BettingList .event {
     display: flex;
-    flex-direction: row;
 }
 
 #BettingList .pageTitle {
