@@ -8,7 +8,7 @@ function App() {
     <div className="App">
         <Sidebar />
     </div>
-);
+  );
 }
 
 export default App;
