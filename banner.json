@@ -1,0 +1,88 @@
+{
+    "bettings" : [
+        {
+            "title" : { 
+                "title" : "농구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "LeftTeam" : {
+            "name" : "1반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            },
+            "RightTeam" : {
+            "name" : "2반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            }
+        },
+        {
+            "title" : { 
+                "title" : "농구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "LeftTeam" : {
+            "name" : "1반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            },
+            "RightTeam" : {
+            "name" : "2반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            }
+        },
+        {
+            "title" : { 
+                "title" : "농구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "LeftTeam" : {
+            "name" : "1반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            },
+            "RightTeam" : {
+            "name" : "2반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            }
+        },
+        {
+            "title" : { 
+                "title" : "농구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "LeftTeam" : {
+            "name" : "1반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            },
+            "RightTeam" : {
+            "name" : "2반",
+            "totalbettingmoney" : 300000000000000000,
+            "odds" : "1:4",
+            "personnel" : 300,
+            "bettingpercent" : 75
+            }
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+{
+    "basketball" : [
+        {
+            "title" : { 
+                "title" : "농구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        },
+        {
+            "title" : { 
+                "title" : "농구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        }
+    ],
+    "catchtail": [
+        {
+            "title" : {
+                "title" : "꼬리잡기",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        },
+        {
+            "title" : {
+                "title" : "꼬리잡기",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        }
+    ],
+    "dodgeball" : [
+        {
+            "title" : {
+                "title" : "피구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        },
+        {
+            "title" : {
+                "title" : "피구",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        }
+    ],
+    "bigvalley": [
+        {
+            "title" : {
+                "title" : "빅발리볼",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        },
+        {
+            "title" : {
+                "title" : "빅발리볼",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        }
+    ],
+    "tugofwar" : [
+        {
+            "title" : {
+                "title" : "줄다리기",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        },
+        {
+            "title" : {
+                "title" : "줄다리기",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        }
+    ],
+    "runcontinuously" : [
+        {
+            "title" : {
+                "title" : "이어달리기",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        },
+        {
+            "title" : {
+                "title" : "이어달리기",
+                "hour" : 24,
+                "minute" : 30
+            },
+            "teams" : {
+                "LeftTeam" : {
+                "name" : "1반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                },
+                "RightTeam" : {
+                "name" : "2반",
+                "totalbettingmoney" : 300000000000000000,
+                "odds" : "1:4",
+                "personnel" : 300,
+                "bettingpercent" : 75
+                }
+            }
+        }
+    ]
+}
