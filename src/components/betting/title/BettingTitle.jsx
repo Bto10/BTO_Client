@@ -1,21 +1,15 @@
 import './bettingTitle.css'
 
-function BettingTitle({ title }) {
-    let deadline;
-
-    switch(true) {
-        case !!title.hour:
-            deadline = `${title.hour}시간 ${title.minute}분`;
-        case !!title.minute:
-            deadline = `${title.minute}분`;
-        default:
-            deadline = '0시간 0분';
-    };
-
+function BettingTitle({ title, hour, minute }) {
     return (
         <div id={"BettingTitle"}>
-            <h4 className="main-title">{title ? title.title : 'BTO 배팅'}</h4>
-            <p className="deadline">{deadline} 후에 마감이 됩니다</p>
+            <h4 className="main-title">{title}</h4>
+            <p className="deadline">
+                {
+                    hour ? `${hour}시간 ${minute}분 후에 마감이 됩니다` :
+                    (minute ? `${minute}분 후에 마감이 됩니다` : "곧 마감합니다")
+                }
+            </p>
         </div>
     );
 }
