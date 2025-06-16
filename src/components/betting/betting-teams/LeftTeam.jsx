@@ -1,12 +1,17 @@
 import './LeftTeam.css';
 
-import money from '../../../assets/betting/img/blue_money.svg'
-import people from '../../../assets/betting/img/blue_people.svg'
-import percent from '../../../assets/betting/img/blue_percent.svg'
+import money from '../../../assets/betting/component/img/blue_money.svg'
+import people from '../../../assets/betting/component/img/blue_people.svg'
+import percent from '../../../assets/betting/component/img/blue_percent.svg'
 
-function LeftTeam(props) {
+function LeftTeam({ info }) {
+    let progressbarLength = info[4]/10;
+    let totalBettingMoney = info[1];
+    let UnitIndex = 0;
+    let moneyUnit = ['', 'K', 'M', 'B', 'T', 'Qd', 'Qnt', 'Sxt', 'Sep', 'Oct', 'Non', 'Dec'];
+
     const LeftTeamProgressbar = {
-        width: `${props.info.progressbarLength}rem`,
+        width: `${progressbarLength}rem`,
         height: '0.75rem',
         flexShrink: '0',
 
@@ -16,31 +21,34 @@ function LeftTeam(props) {
         background: '#3879FE',
     };
 
+    while (totalBettingMoney >= 1000){
+        totalBettingMoney = totalBettingMoney / 1000;
+        UnitIndex += 1;
+    }
+
     return (
-        <div id={"LeftTeam"}>
-            <div className='LeftTeam-name'>{props.info.name}</div>
+        <div id='LeftTeam'>
+            <div className='LeftTeam-name'>{info[0]}</div>
             <div className='LeftTeam-totalbettingmoney'>
-                <div className='img'>
-                    <img src={money} alt='money' />
-                </div>
+                <img src={money} alt='money' />
                 <div className='LeftTeam-totalbettingmoney-text'>
-                    {props.info.totalbettingmoney}
+                    {totalBettingMoney}{moneyUnit[UnitIndex]}
                 </div>
             </div>
             <div className='LeftTeam-odds'>
-                <img src={percent} alt='percent' />
+                <img src={people} alt='people' />
                 <div className='LeftTeam-odds-text'>
-                    {props.info.odds}
+                    {info[2]}
                 </div>
             </div>
             <div className='LeftTeam-personnel'>
-                <img src={people} alt='people' />
+                <img src={percent} alt='percent' />
                 <div className='LeftTeam-personnel-text'>
-                    {props.info.personnel}
+                    {info[3]}
                 </div>
             </div>
-            <div className='LeftTeam-bettingpercent'>{props.info.bettingpercent}%</div>
-            <div className='LeftTeam-progressbar' style={LeftTeamProgressbar}>{props.info.progressbar}</div>
+            <div className='LeftTeam-bettingpercent'>{info[4]}%</div>
+            <div style={LeftTeamProgressbar}></div>
         </div>
     )
 }
